@@ -90,12 +90,15 @@ print("decalre train")
 train = theano.function(inputs=[X, Y], outputs=cost, updates=updates, allow_input_downcast=True)
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
-
+import time
 print("starting")
+startime = time.time()
 for i in range(100):
     print("========= Epoch", i, "=========")
+    temp_time = time.time()
     print("length", len(trX), len(trY))
     for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
-        print("s:", start, "e:", end)
         cost = train(trX[start:end], trY[start:end])
     print(np.mean(np.argmax(teY, axis=1) == predict(teX)))
+    print("Took: ", (time.time() - temp_time) / 60, "min")
+print("Total time: ", (time.time() - startime) / 60, "min")
