@@ -1,7 +1,9 @@
-import time
+accuracy = [i for i in range(100)]
 
-s = time.time()
+total_time = 345.65
 
-time.sleep(2)
-
-print((time.time() - s) / 60, "min")
+with open('res.txt', 'w') as f:
+    for acc in accuracy:
+        f.write(str(acc) + "\n")
+    t = str(total_time)
+    f.write("\n\nTime taken: " + t + " minutes")

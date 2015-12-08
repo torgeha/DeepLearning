@@ -93,12 +93,24 @@ predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 import time
 print("starting")
 startime = time.time()
+
+accuracy = []
+
 for i in range(100):
     print("========= Epoch", i, "=========")
     temp_time = time.time()
     print("length", len(trX), len(trY))
     for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
         cost = train(trX[start:end], trY[start:end])
-    print(np.mean(np.argmax(teY, axis=1) == predict(teX)))
-    print("Took: ", (time.time() - temp_time) / 60, "min")
-print("Total time: ", (time.time() - startime) / 60, "min")
+    acc = np.mean(np.argmax(teY, axis=1) == predict(teX))
+    print(acc)
+    accuracy.append(acc)
+    print("Time since start ", (time.time() - temp_time) / 60, "min")
+total_time = (time.time() - startime) / 60
+print("Total time: ", total_time, "min")
+
+with open('result.txt', 'w') as f:
+    for acc in accuracy:
+        f.write(str(acc) + "\n")
+    t = str(total_time)
+    f.write("\n\nTime taken: " + t + " minutes")
