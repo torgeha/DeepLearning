@@ -1,0 +1,413 @@
+Using gpu device 0: GRID K520 (CNMeM is disabled)
+convoNet.py:46: UserWarning: max_pool_2d() will have the parameter ignore_border default value changed to True (currently False). To have consistent behavior with all Theano version, explicitly add the parameter  ignore_border=True. (this is also faster than ignore_border=False)
+  l1 = max_pool_2d(l1a, (2, 2))
+convoNet.py:50: UserWarning: max_pool_2d() will have the parameter ignore_border default value changed to True (currently False). To have consistent behavior with all Theano version, explicitly add the parameter  ignore_border=True. (this is also faster than ignore_border=False)
+  l2 = max_pool_2d(l2a, (2, 2))
+convoNet.py:54: UserWarning: max_pool_2d() will have the parameter ignore_border default value changed to True (currently False). To have consistent behavior with all Theano version, explicitly add the parameter  ignore_border=True. (this is also faster than ignore_border=False)
+  l3b = max_pool_2d(l3a, (2, 2))
+go
+init weights
+updates
+decalre train
+starting
+('========= Epoch', 0, '=========')
+('length', 60000, 60000)
+0.8954
+('Time since start ', 1.8807336171468099, 'min')
+('========= Epoch', 1, '=========')
+('length', 60000, 60000)
+0.9714
+('Time since start ', 1.881098250548045, 'min')
+('========= Epoch', 2, '=========')
+('length', 60000, 60000)
+0.9815
+('Time since start ', 1.880917783578237, 'min')
+('========= Epoch', 3, '=========')
+('length', 60000, 60000)
+0.9872
+('Time since start ', 1.8807948350906372, 'min')
+('========= Epoch', 4, '=========')
+('length', 60000, 60000)
+0.9892
+('Time since start ', 1.8804611484209697, 'min')
+('========= Epoch', 5, '=========')
+('length', 60000, 60000)
+0.9882
+('Time since start ', 1.8802820324897767, 'min')
+('========= Epoch', 6, '=========')
+('length', 60000, 60000)
+0.9919
+('Time since start ', 1.8806429505348206, 'min')
+('========= Epoch', 7, '=========')
+('length', 60000, 60000)
+0.9925
+('Time since start ', 1.8804396828015646, 'min')
+('========= Epoch', 8, '=========')
+('length', 60000, 60000)
+0.9925
+('Time since start ', 1.8804621299107869, 'min')
+('========= Epoch', 9, '=========')
+('length', 60000, 60000)
+0.9921
+('Time since start ', 1.8805474479993185, 'min')
+('========= Epoch', 10, '=========')
+('length', 60000, 60000)
+0.9931
+('Time since start ', 1.8807523330052693, 'min')
+('========= Epoch', 11, '=========')
+('length', 60000, 60000)
+0.9919
+('Time since start ', 1.88029865026474, 'min')
+('========= Epoch', 12, '=========')
+('length', 60000, 60000)
+0.9921
+('Time since start ', 1.8804031491279602, 'min')
+('========= Epoch', 13, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8805336316426595, 'min')
+('========= Epoch', 14, '=========')
+('length', 60000, 60000)
+0.9929
+('Time since start ', 1.880680465698242, 'min')
+('========= Epoch', 15, '=========')
+('length', 60000, 60000)
+0.9934
+('Time since start ', 1.88042311668396, 'min')
+('========= Epoch', 16, '=========')
+('length', 60000, 60000)
+0.9926
+('Time since start ', 1.8806691646575928, 'min')
+('========= Epoch', 17, '=========')
+('length', 60000, 60000)
+0.9933
+('Time since start ', 1.8808196822802226, 'min')
+('========= Epoch', 18, '=========')
+('length', 60000, 60000)
+0.9931
+('Time since start ', 1.8804313818613687, 'min')
+('========= Epoch', 19, '=========')
+('length', 60000, 60000)
+0.993
+('Time since start ', 1.880143149693807, 'min')
+('========= Epoch', 20, '=========')
+('length', 60000, 60000)
+0.9938
+('Time since start ', 1.880378782749176, 'min')
+('========= Epoch', 21, '=========')
+('length', 60000, 60000)
+0.9933
+('Time since start ', 1.8802058498064678, 'min')
+('========= Epoch', 22, '=========')
+('length', 60000, 60000)
+0.9921
+('Time since start ', 1.8802571018536887, 'min')
+('========= Epoch', 23, '=========')
+('length', 60000, 60000)
+0.9937
+('Time since start ', 1.880279799302419, 'min')
+('========= Epoch', 24, '=========')
+('length', 60000, 60000)
+0.9931
+('Time since start ', 1.8806683858235678, 'min')
+('========= Epoch', 25, '=========')
+('length', 60000, 60000)
+0.9938
+('Time since start ', 1.8805694500605266, 'min')
+('========= Epoch', 26, '=========')
+('length', 60000, 60000)
+0.9926
+('Time since start ', 1.880476681391398, 'min')
+('========= Epoch', 27, '=========')
+('length', 60000, 60000)
+0.993
+('Time since start ', 1.880695148309072, 'min')
+('========= Epoch', 28, '=========')
+('length', 60000, 60000)
+0.9928
+('Time since start ', 1.8805043339729308, 'min')
+('========= Epoch', 29, '=========')
+('length', 60000, 60000)
+0.9923
+('Time since start ', 1.8807760993639628, 'min')
+('========= Epoch', 30, '=========')
+('length', 60000, 60000)
+0.9938
+('Time since start ', 1.8808604995409648, 'min')
+('========= Epoch', 31, '=========')
+('length', 60000, 60000)
+0.9934
+('Time since start ', 1.8805387655893961, 'min')
+('========= Epoch', 32, '=========')
+('length', 60000, 60000)
+0.9935
+('Time since start ', 1.8801045656204223, 'min')
+('========= Epoch', 33, '=========')
+('length', 60000, 60000)
+0.9935
+('Time since start ', 1.8807014981905619, 'min')
+('========= Epoch', 34, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8806198000907899, 'min')
+('========= Epoch', 35, '=========')
+('length', 60000, 60000)
+0.9942
+('Time since start ', 1.8804489652315775, 'min')
+('========= Epoch', 36, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8802717169125875, 'min')
+('========= Epoch', 37, '=========')
+('length', 60000, 60000)
+0.9938
+('Time since start ', 1.8801608482996623, 'min')
+('========= Epoch', 38, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8804989020029703, 'min')
+('========= Epoch', 39, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.880666164557139, 'min')
+('========= Epoch', 40, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8803467830022176, 'min')
+('========= Epoch', 41, '=========')
+('length', 60000, 60000)
+0.9944
+('Time since start ', 1.8804854154586792, 'min')
+('========= Epoch', 42, '=========')
+('length', 60000, 60000)
+0.995
+('Time since start ', 1.8803910851478576, 'min')
+('========= Epoch', 43, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8804699500401816, 'min')
+('========= Epoch', 44, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8807536999384562, 'min')
+('========= Epoch', 45, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.880608065923055, 'min')
+('========= Epoch', 46, '=========')
+('length', 60000, 60000)
+0.9947
+('Time since start ', 1.880490231513977, 'min')
+('========= Epoch', 47, '=========')
+('length', 60000, 60000)
+0.9939
+('Time since start ', 1.8804058154424033, 'min')
+('========= Epoch', 48, '=========')
+('length', 60000, 60000)
+0.9942
+('Time since start ', 1.8805409828821817, 'min')
+('========= Epoch', 49, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.8803988019625346, 'min')
+('========= Epoch', 50, '=========')
+('length', 60000, 60000)
+0.9942
+('Time since start ', 1.8804955999056499, 'min')
+('========= Epoch', 51, '=========')
+('length', 60000, 60000)
+0.9936
+('Time since start ', 1.8805564840634663, 'min')
+('========= Epoch', 52, '=========')
+('length', 60000, 60000)
+0.9944
+('Time since start ', 1.880536150932312, 'min')
+('========= Epoch', 53, '=========')
+('length', 60000, 60000)
+0.9939
+('Time since start ', 1.880514963467916, 'min')
+('========= Epoch', 54, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8807899355888367, 'min')
+('========= Epoch', 55, '=========')
+('length', 60000, 60000)
+0.9933
+('Time since start ', 1.8809401194254558, 'min')
+('========= Epoch', 56, '=========')
+('length', 60000, 60000)
+0.9944
+('Time since start ', 1.8808689037958781, 'min')
+('========= Epoch', 57, '=========')
+('length', 60000, 60000)
+0.9937
+('Time since start ', 1.8808984835942586, 'min')
+('========= Epoch', 58, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8810449679692587, 'min')
+('========= Epoch', 59, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.880312403043111, 'min')
+('========= Epoch', 60, '=========')
+('length', 60000, 60000)
+0.9945
+('Time since start ', 1.8802192846934, 'min')
+('========= Epoch', 61, '=========')
+('length', 60000, 60000)
+0.9945
+('Time since start ', 1.8805494507153828, 'min')
+('========= Epoch', 62, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8792152166366578, 'min')
+('========= Epoch', 63, '=========')
+('length', 60000, 60000)
+0.995
+('Time since start ', 1.8809286991755167, 'min')
+('========= Epoch', 64, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.880985152721405, 'min')
+('========= Epoch', 65, '=========')
+('length', 60000, 60000)
+0.9945
+('Time since start ', 1.8810381849606832, 'min')
+('========= Epoch', 66, '=========')
+('length', 60000, 60000)
+0.9945
+('Time since start ', 1.8809125502904256, 'min')
+('========= Epoch', 67, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8805853168169657, 'min')
+('========= Epoch', 68, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.880813467502594, 'min')
+('========= Epoch', 69, '=========')
+('length', 60000, 60000)
+0.9944
+('Time since start ', 1.88050373395284, 'min')
+('========= Epoch', 70, '=========')
+('length', 60000, 60000)
+0.9943
+('Time since start ', 1.8807747999827067, 'min')
+('========= Epoch', 71, '=========')
+('length', 60000, 60000)
+0.9949
+('Time since start ', 1.8806809186935425, 'min')
+('========= Epoch', 72, '=========')
+('length', 60000, 60000)
+0.9948
+('Time since start ', 1.8805817683537802, 'min')
+('========= Epoch', 73, '=========')
+('length', 60000, 60000)
+0.9937
+('Time since start ', 1.880883546670278, 'min')
+('========= Epoch', 74, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.8807397683461506, 'min')
+('========= Epoch', 75, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8807010173797607, 'min')
+('========= Epoch', 76, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.8810451666514079, 'min')
+('========= Epoch', 77, '=========')
+('length', 60000, 60000)
+0.9952
+('Time since start ', 1.8809368848800658, 'min')
+('========= Epoch', 78, '=========')
+('length', 60000, 60000)
+0.9947
+('Time since start ', 1.8807446201642355, 'min')
+('========= Epoch', 79, '=========')
+('length', 60000, 60000)
+0.9948
+('Time since start ', 1.8803425510724385, 'min')
+('========= Epoch', 80, '=========')
+('length', 60000, 60000)
+0.9949
+('Time since start ', 1.8808095852533977, 'min')
+('========= Epoch', 81, '=========')
+('length', 60000, 60000)
+0.9935
+('Time since start ', 1.8807829022407532, 'min')
+('========= Epoch', 82, '=========')
+('length', 60000, 60000)
+0.9938
+('Time since start ', 1.8808197816212973, 'min')
+('========= Epoch', 83, '=========')
+('length', 60000, 60000)
+0.9944
+('Time since start ', 1.8809625864028932, 'min')
+('========= Epoch', 84, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.8810069998105368, 'min')
+('========= Epoch', 85, '=========')
+('length', 60000, 60000)
+0.994
+('Time since start ', 1.8808224995930989, 'min')
+('========= Epoch', 86, '=========')
+('length', 60000, 60000)
+0.9939
+('Time since start ', 1.880695883433024, 'min')
+('========= Epoch', 87, '=========')
+('length', 60000, 60000)
+0.994
+('Time since start ', 1.88084849913915, 'min')
+('========= Epoch', 88, '=========')
+('length', 60000, 60000)
+0.995
+('Time since start ', 1.8810047825177512, 'min')
+('========= Epoch', 89, '=========')
+('length', 60000, 60000)
+0.9947
+('Time since start ', 1.8809072494506835, 'min')
+('========= Epoch', 90, '=========')
+('length', 60000, 60000)
+0.995
+('Time since start ', 1.8811051527659097, 'min')
+('========= Epoch', 91, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.881064252058665, 'min')
+('========= Epoch', 92, '=========')
+('length', 60000, 60000)
+0.994
+('Time since start ', 1.8811202963193259, 'min')
+('========= Epoch', 93, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.880899933973948, 'min')
+('========= Epoch', 94, '=========')
+('length', 60000, 60000)
+0.9942
+('Time since start ', 1.8808533827463785, 'min')
+('========= Epoch', 95, '=========')
+('length', 60000, 60000)
+0.9944
+('Time since start ', 1.880062750975291, 'min')
+('========= Epoch', 96, '=========')
+('length', 60000, 60000)
+0.9946
+('Time since start ', 1.8806745529174804, 'min')
+('========= Epoch', 97, '=========')
+('length', 60000, 60000)
+0.9941
+('Time since start ', 1.8810122847557067, 'min')
+('========= Epoch', 98, '=========')
+('length', 60000, 60000)
+0.9952
+('Time since start ', 1.8809823354085287, 'min')
+('========= Epoch', 99, '=========')
+('length', 60000, 60000)
+0.9947
+('Time since start ', 1.8810647527376811, 'min')
+('Total time: ', 188.06377435127894, 'min')
