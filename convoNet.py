@@ -81,6 +81,8 @@ noise_l1, noise_l2, noise_l3, noise_l4, noise_py_x = model(X, w, w2, w3, w4, 0.2
 l1, l2, l3, l4, py_x = model(X, w, w2, w3, w4, 0., 0.)
 y_x = T.argmax(py_x, axis=1)
 
+
+
 print("updates")
 cost = T.mean(T.nnet.categorical_crossentropy(noise_py_x, Y))
 params = [w, w2, w3, w4, w_o]
@@ -102,6 +104,10 @@ for i in range(100):
     print("length", len(trX), len(trY))
     for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
         cost = train(trX[start:end], trY[start:end])
+        print("cost: ", cost)
+        print("X", X)
+        print("Y", Y)
+        print("y_x", y_x)
     acc = np.mean(np.argmax(teY, axis=1) == predict(teX))
     print(acc)
     accuracy.append(acc)
