@@ -90,6 +90,7 @@ print("decalre train")
 train = theano.function(inputs=[X, Y], outputs=cost, updates=updates, allow_input_downcast=True)
 predict = theano.function(inputs=[X], outputs=y_x, allow_input_downcast=True)
 
+
 print("starting")
 for i in range(100):
     print("========= Epoch", i, "=========")
