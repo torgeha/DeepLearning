@@ -104,10 +104,8 @@ for i in range(100):
     print("length", len(trX), len(trY))
     for start, end in zip(range(0, len(trX), 128), range(128, len(trX), 128)):
         cost = train(trX[start:end], trY[start:end])
-        print("cost: ", cost)
-        print("X", X)
-        print("Y", Y)
-        print("y_x", y_x)
+
+
     acc = np.mean(np.argmax(teY, axis=1) == predict(teX))
     print(acc)
     accuracy.append(acc)
