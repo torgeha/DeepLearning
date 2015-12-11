@@ -19,7 +19,7 @@ x_data = x_data.reshape((x_data.shape[0], -1))
 
 
 # For speed of computation, only run on a subset
-n = 20000
+n = 5000
 x_data = x_data[:n]
 y_data = y_data[:n]
 
@@ -40,4 +40,4 @@ plt.scatter(vis_x, vis_y, c=labels, cmap=plt.cm.get_cmap("jet", 10))
 #plt.scatter(vis_x, vis_y, 20, labels)
 plt.colorbar(ticks=range(10))
 plt.clim(-0.5, 9.5)
-plt.savefig("tsnetest")
+plt.savefig("tsne5k")
